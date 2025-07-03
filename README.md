@@ -1,6 +1,6 @@
 # CustomPix
 
-CustomPix is a comprehensive image editing and manipulation toolkit that combines the power of AI-driven segmentation, inpainting, and style transfer with traditional computer vision techniques. Built with a user-friendly Gradio interface, it provides professional-grade image editing capabilities accessible to both beginners and advanced users.
+CustomPix is a comprehensive image editing and manipulation toolkit that combines the power of AI-driven segmentation, inpainting, and style transfer with traditional computer vision techniques. Built with a user-friendly Gradio interface, it provides professional-grade image editing capabilities using state of the art models, accessible to both beginners and advanced users.
 
 ## Main Technologies Used
 
@@ -47,23 +47,31 @@ CustomPix is a comprehensive image editing and manipulation toolkit that combine
 
 ## Examples
 
-- SAM Mask Creation Interface
-- Background Mask Generation
-- SDXL Inpainting Results
-- Style Transfer Examples
-- Selective Coloring Demo
-- Background Removal Results
+### SAM Mask Creation Interface
+![SAM Mask Creation Interface](./demo-images/sam_mask.png)
+### Background Mask Generation
+![SAM Mask Creation Interface](./demo-images/background_mask.png)
+### SDXL Inpainting Results
+![SAM Mask Creation Interface](./demo-images/sdxl_mask.png)
+![SAM Mask Creation Interface](./demo-images/sdxl_mask_output.png)
+![SAM Mask Creation Interface](./demo-images/sdxl_manual.png)
+![SAM Mask Creation Interface](./demo-images/sdxl_manual_output.png)
+### Style Transfer
+![SAM Mask Creation Interface](./demo-images/style_transfer.png)
+### Selective Coloring
+![SAM Mask Creation Interface](./demo-images/coloring.png)
+### Background Removal
+![SAM Mask Creation Interface](./demo-images/bg_removal.png)
 
 ## Steps to Run
 
-### Google Colab (Recommended)
+### Google Colab
 1. Clone the repository and upload the repository files to your Colab environment
 2. Run all cells to install dependencies and launch the interface
 
 
 ## Future Enhancements
 
-### Planned Features
 - **Object Generation**: AI-powered object insertion and creation within images
 - **Image Deblurring**: Advanced algorithms for motion and focus blur removal
 - **Super Resolution**: Upscaling capabilities for image enhancement
